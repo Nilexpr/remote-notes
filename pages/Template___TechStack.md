@@ -1,4 +1,4 @@
-- 笔记模板
+- Tech Stack Template
   template:: 笔记模板
   template-including-parent:: false
 	- **概述**
