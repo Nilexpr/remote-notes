@@ -420,5 +420,4 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :editor/logical-outdenting? false
- :graph/settings {:orphan-pages? true
- :journal? true}}
+ :graph/settings {:orphan-pages? false}}
