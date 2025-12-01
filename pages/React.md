@@ -2,6 +2,8 @@
 	- (One-sentence definition)
 - **Core Features**
 	- **Feature**
+		- **Purpose**
+			- (Why this concept exists, what problem it solves)
 		- Implementation
 			- (How this feature is implemented)
 		- Key Concepts
