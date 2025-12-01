@@ -4,9 +4,10 @@
 	- **Overview**
 		- (One-sentence definition)
 	- **Core Features**
-		- **Feature** #feature
+		- **Feature**
 			- Implementation: (How this feature is implemented)
 			- Key Concepts: (Link to subpages or describe directly)
+			- Dependencies: (If depends on other features, use ((block reference)))
 			- Mechanism: (How it works, core flow in one sentence)
 			- Caveats
 				- (Why it matters → Solution)
@@ -14,4 +15,4 @@
 		- ✅ (When to use, why)
 		- ❌ (When not to use, why)
 	- **Further Reading**
-		- (Links to subpages, optional)
+		- (Links to sub pages, optional)
