@@ -10,4 +10,4 @@
 	- **Caveats**
 		- (Why it matters → Solution)
 	- **Related**
-		- (Use ((block reference to link back to main page)
+		- (Use block reference to link back to main page)

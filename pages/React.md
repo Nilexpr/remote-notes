@@ -1,10 +1,19 @@
-- **定义**
-	- （这个概念是什么）
-- **使用场景**
-	- （什么时候用这个概念）
-- **工作原理**
-	- （如何实现的，可选）
-- **注意事项**
-	- （为什么 → 解决方案）
-- **相关**
-	- （用 ((块引用)) 关联到主页面）
+- **Overview**
+	- (One-sentence definition)
+- **Core Features**
+	- **Feature**
+		- Implementation
+			- (How this feature is implemented)
+		- Key Concepts
+			- (Link to subpages or describe directly)
+		- Dependencies
+			- (If depends on other features, use block reference)
+		- How it Works
+			- (Core flow in one sentence)
+		- Caveats
+			- (Why it matters → Solution)
+- **When to Use**
+	- ✅ Good for: (What scenarios, why)
+	- ❌ Not for: (What scenarios, why)
+- **See Also**
+	- (Links to subpages, optional)
