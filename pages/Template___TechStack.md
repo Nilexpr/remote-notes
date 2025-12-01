@@ -1,30 +1,17 @@
 - Tech Stack Template
   template:: TechStack
   template-including-parent:: false
-	- **概述 Overview**
-		- （一句话定义）
-	- **核心特性 Core Features**
-		- **Feature 1** #核心特性
-			- 实现方式 Implementation：（用什么方式实现这个特性）
-			- 核心概念 Key Concepts：（链接到子页面或直接描述）
-			- 工作原理 Mechanism：（简述核心流程，一句话）
-			- 注意事项 Caveats
-				- （为什么要注意 → 解决方案）
-		- **Feature 2** #核心特性
-			- 实现方式 Implementation：（填写）
-			- 依赖 Dependencies：（如依赖其他特性，用 ((块引用))）
-			- 核心概念 Key Concepts：（填写）
-			- 工作原理 Mechanism：（填写）
-			- 注意事项 Caveats
-				- （填写）
-		- **Feature 3** #核心特性
-			- 实现方式 Implementation：（填写）
-			- 核心概念 Key Concepts：（填写）
-			- 工作原理 Mechanism：（填写）
-			- 注意事项 Caveats
-				- （填写）
-	- **适用场景 Use Cases**
-		- ✅ （什么时候用，为什么）
-		- ❌ （什么时候不用，为什么）
-	- **延伸阅读 Further Reading**
-		- （链接到子页面，可选）
+	- **Overview**
+		- (One-sentence definition)
+	- **Core Features**
+		- **Feature** #feature
+			- Implementation: (How this feature is implemented)
+			- Key Concepts: (Link to subpages or describe directly)
+			- Mechanism: (How it works, core flow in one sentence)
+			- Caveats
+				- (Why it matters → Solution)
+	- **Use Cases**
+		- ✅ (When to use, why)
+		- ❌ (When not to use, why)
+	- **Further Reading**
+		- (Links to subpages, optional)
