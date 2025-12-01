@@ -3,6 +3,8 @@
   template-including-parent:: false
 	- **Definition**
 		- (What this concept is)
+	- **Dependencies**
+		- (If depends on other features, use block reference)
 	- **Use Cases**
 		- (When to use this concept)
 	- **Mechanism**
@@ -10,4 +12,4 @@
 	- **Caveats**
 		- (Why it matters → Solution)
 	- **Related**
-		- (Use ((block reference)) to link back to main page)
+		- (Use block reference to link back to main page)
