@@ -1,31 +1,41 @@
 - **概述**
 	- React 是声明式 UI 库，通过状态自动驱动视图更新
+- **核心特性**
+	- **声明式 UI** #核心特性
+	  id:: react-declarative
+		- 实现方式：状态 → 视图的自动映射
+		- 核心概念：[[组件]] [[JSX]] [[状态管理]]
+		- 工作原理
+		  id:: react-render-flow
+			- 状态变化 → 组件重新执行 → 虚拟 DOM → Diff → 更新真实 DOM
+		- 注意事项
+			- setState 异步批量更新 → 使用 `setState(prev => prev + 1)`
+			- 状态不可变 → 必须返回新对象
+	- **组件复用** #核心特性
+		- 实现方式：函数组件 + Props
+		- 依赖：((react-declarative))
+		- 核心概念：Props 单向传递
+		- 注意事项
+			- Props 只读
+			- Props 变化触发重渲染
+	- **副作用管理** #核心特性
+		- 实现方式：useEffect(fn, deps)
+		- 依赖：((react-render-flow))
+		- 工作原理：渲染后执行 → 返回清理函数 → 下次执行前清理
+		- 注意事项
+			- 依赖数组遗漏导致闭包陷阱
+			- 必须清理订阅/定时器
+	- **性能优化** #核心特性
+		- 实现方式：React.memo / useMemo / useCallback
+		- 依赖：((react-render-flow))
+		- 工作原理：浅比较 props/deps → 未变化则复用
+		- 注意事项
+			- 不要过早优化
+			- 注意对象/数组引用相等性
 - **适用场景**
-	- ✅ 复杂交互的单页应用
+	- ✅ 复杂交互应用（需要 ((react-declarative))）
 	- ✅ 需要组件复用的中大型项目
-	- ❌ 简单静态页面（开销过大）
-	- ❌ SEO 要求严格的内容站（需配合 SSR）
-- **核心概念**
-	- 组件：函数返回 JSX 描述 UI
-	- 状态：useState 创建响应式数据
-	- 副作用：useEffect 处理异步和订阅
-	- 单向数据流：父组件通过 props 向下传递数据
-- **工作原理**
-	- 状态变化 → 组件函数重新执行 → 生成虚拟 DOM → Diff 算法对比 → 更新真实 DOM
-	- 批量更新机制：React 合并多次状态更新，减少渲染次数
--
-	- **常用接口**
-	- `useState(initial)` - 创建状态，返回 [state, setState]
-	- `useEffect(fn, deps)` - 处理副作用，deps 为空数组时仅执行一次
-	- `useRef(initial)` - 保存不触发渲染的值或 DOM 引用
-	- `useMemo(fn, deps)` - 缓存计算结果
-	- `React.memo(Component)` - 组件记忆化，避免无效重渲染
-- **注意事项**
-	- setState 异步更新，使用函数式更新避免闭包问题：`setState(prev => prev + 1)`
-	- Hooks 不可在条件语句或循环中调用，必须保持调用顺序一致
-	- 列表渲染必须提供稳定唯一的 key，不可使用数组索引
-	- useEffect 依赖数组遗漏会导致闭包陷阱，使用 ESLint 插件检查
+	- ❌ 简单静态页面
 - **延伸阅读**
 	- [[组件设计模式]]
-	- [[React 性能优化]]
-	- [[Hooks 使用规范]]
+	- [[React 性能优化实践]]
