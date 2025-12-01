@@ -1,13 +1,15 @@
-- Concept Template
+- 概念模板
   template:: Concept
   template-including-parent:: false
-	- **Definition**
-		- (What this concept is)
-	- **When to Use**
-		- (What scenarios to use this concept)
-	- **How it Works**
-		- (How it's implemented, optional)
-	- **Caveats**
-		- (Why it matters → Solution)
-	- **Related**
-		- (Use block reference to link back to main page)
+	- **定义**
+		- （这个概念是什么，一句话）
+	- **用途**
+		- （用来做什么，解决什么问题）
+	- **用法**
+		- （怎么使用，关键 API 或模式）
+	- **工作机制**
+		- （内部如何实现，可选）
+	- **注意事项**
+		- （常见问题 → 为什么 → 解决方案）
+	- **相关**
+		- （关联的特性或其他概念）

@@ -1,22 +1,15 @@
-- Tech Stack Template
+- 技术栈模板
   template:: TechStack
   template-including-parent:: false
-	- **Overview**
-		- (One-sentence definition)
-	- **Core Features**
-		- **Feature**
-			- Implementation
-				- (How this feature is implemented)
-			- Key Concepts
-				- (Link to subpages or describe directly)
-			- Dependencies
-				- (If depends on other features, use block reference)
-			- How it Works
-				- (Core flow in one sentence)
-			- Caveats
-				- (Why it matters → Solution)
-	- **When to Use**
-		- ✅ Good for: (What scenarios, why)
-		- ❌ Not for: (What scenarios, why)
-	- **See Also**
-		- (Links to subpages, optional)
+	- **概述**
+		- （一句话：这是什么，核心思想是什么）
+	- **核心特性**
+		- （列出 3-5 个核心特性，链接到子页面或直接描述）
+		- [[技术名称/特性1]]
+		- [[技术名称/特性2]]
+		- [[技术名称/特性3]]
+	- **适用场景**
+		- ✅ 适合：（什么场景，为什么适合）
+		- ❌ 不适合：（什么场景，为什么不适合）
+	- **相关资源**
+		- （官方文档、进阶主题链接等）
