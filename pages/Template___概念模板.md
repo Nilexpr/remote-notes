@@ -1,4 +1,4 @@
-- 概念笔记模板
+- 概念模板
   template:: 概念笔记
   template-including-parent:: false
 	- **定义**

@@ -1,4 +1,4 @@
-- 技术笔记
+- 笔记模板
   template:: 笔记模板
   template-including-parent:: false
 	- **概述**
