@@ -1,5 +1,5 @@
 - 技术笔记模板
-  template:: 技术笔记
+  template-including-parent:: 技术笔记
 	- **概述**
 		- （一句话定义）
 	- **核心特性**
