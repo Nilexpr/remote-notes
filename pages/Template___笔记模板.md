@@ -1,5 +1,5 @@
 - 技术笔记
-  template:: 笔记大纲
+  template:: 笔记模板
   template-including-parent:: false
 	- **概述**
 		- （一句话定义）
