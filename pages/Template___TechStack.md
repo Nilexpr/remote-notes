@@ -1,5 +1,5 @@
 - Tech Stack Template
-  template:: 笔记模板
+  template:: TechStack
   template-including-parent:: false
 	- **概述 Overview**
 		- （一句话定义）
