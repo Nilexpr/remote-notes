@@ -1,6 +1,6 @@
 - 技术笔记
-template:: 技术笔记
-
+  template :: 笔记大纲
+  template-including-parent :: false
 - **概述**
 	- （一句话定义）
 - **适用场景**
