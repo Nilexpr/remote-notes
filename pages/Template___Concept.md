@@ -3,13 +3,11 @@
   template-including-parent:: false
 	- **Definition**
 		- (What this concept is)
-	- **Dependencies**
-		- (If depends on other features, use block reference)
-	- **Use Cases**
-		- (When to use this concept)
-	- **Mechanism**
+	- **When to Use**
+		- (What scenarios to use this concept)
+	- **How it Works**
 		- (How it's implemented, optional)
 	- **Caveats**
 		- (Why it matters → Solution)
 	- **Related**
-		- (Use block reference to link back to main page)
+		- (Use ((block reference to link back to main page)
