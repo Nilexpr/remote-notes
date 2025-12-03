@@ -4,7 +4,7 @@
 	- [[Actix Web/HttpServer]]
 	- [[Actix Web/App]]
 	- [[Actix Web/Route]]
-	- [[Ac]]
+	- [[Actix Web/guard]]
 - **核心特性**
 	- （列出 3-5 个核心特性，链接到子页面或直接描述）
 	- `[[技术名称/特性1]]`
